@@ -47,4 +47,4 @@ conda activate snakemake
 snakemake --version
 ```
 
-Installation Complete: You are now ready to run the pipeline; return to the [main README](https://github.com/Novel-sp) to begin with Module 1.
+Installation Complete: You are now ready to run the pipeline; return to the **[NOSE README](https://github.com/Novel-sp)** to begin with Module 1.
