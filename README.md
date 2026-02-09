@@ -1,9 +1,9 @@
 ### The Engine for NOSE: Why Snakemake?
 NOSE operates on the logic of a DAG (Directed Acyclic Graph). Here is why that matters for your data:
 
-• Directed: Logic flows sequentially; downstream analytical modules (e.g., Metabolic Mapping) are automatically triggered upon the successful generation of upstream dependencies.
-• Acyclic: The pipeline architecture prevents circular dependencies, ensuring a deterministic path from input (FASTA) to output (CSV/TSV).
-• Graph-Based: Every rule represents a discrete computational node, allowing for granular error tracking and partial workflow resumption.
+• Directed: Logic flows sequentially; downstream analytical modules (e.g., Metabolic Mapping) are automatically triggered upon the successful generation of upstream dependencies.<br>
+• Acyclic: The pipeline architecture prevents circular dependencies, ensuring a deterministic path from input (FASTA) to output (CSV/TSV).<br>
+• Graph-Based: Every rule represents a discrete computational node, allowing for granular error tracking and partial workflow resumption.<br>
 
 ### Prerequisites
 #### Computational Prerequisites
