@@ -21,7 +21,7 @@ Here is why that matters for your data:<br>
 #### Anaconda and Snakemake Setup & Installation
 Follow these steps to set up the environment on a Linux system or HPC.
 
-##### 1. Install or Update Anaconda
+#### 1. Install or Update Anaconda
 Download and run the installer. We use the -u flag to ensure that if Anaconda is already present, it updates correctly rather than throwing an error for your architecture.
 
 ##### For x86_64 (Standard Intel/AMD):
@@ -38,7 +38,7 @@ bash Anaconda3-2025.12-2-Linux-aarch64.sh -b -u
 ```
 > Note: The -b flag automates the install, and -u updates any existing installation at ~/anaconda3.
 
-##### 2. Initialize the Environment
+#### 2. Initialize the Environment
 Refresh your shell to recognize the conda command:
 ```Bash
 source ~/anaconda3/bin/activate
@@ -61,7 +61,7 @@ conda create -n snakemake snakemake -y
 # Activate the environment
 conda activate snakemake
 ```
-##### 4. Verify Installation
+#### 4. Verify Installation
 
 ```Bash
 snakemake --version
